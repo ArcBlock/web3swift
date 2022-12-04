@@ -31,6 +31,7 @@ public enum JSONRPCmethod: String, Encodable {
     case getTxPoolInspect = "txpool_inspect"
     case getTxPoolStatus = "txpool_status"
     case getTxPoolContent = "txpool_content"
+    case netListening = "net_listening"
 
     
     public var requiredNumOfParameters: Int {
@@ -63,6 +64,8 @@ public enum JSONRPCmethod: String, Encodable {
             case .getTxPoolContent:
                 return 0
             case .getTxPoolInspect:
+                return 0
+            case .netListening:
                 return 0
             default:
                 return 1
