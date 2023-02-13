@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
     spec.frameworks = 'CoreImage'
     spec.dependency 'BigInt', '~> 5.2'
     spec.dependency 'Starscream', '~> 4.0.4'
-    spec.dependency 'CryptoSwift', '~> 1.4.0'
+    spec.dependency 'CryptoSwift', '~> 1.6.0'
     spec.dependency 'secp256k1.swift'
     spec.dependency 'PromiseKit', '~> 6.15.3'
 end
